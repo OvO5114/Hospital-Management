@@ -2,109 +2,16 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=FFB13C&size=50&width=1000&height=80&lines=Welcome-to-Hospital-Management-App"/>
 </div>
 
-# HealthHub - Advanced Hospital Management System
+HealthHub is a comprehensive React-based hospital management system designed to streamline healthcare operations and improve patient care. A comprehensive hospital management system is built using JavaScript (ES6+), HTML5, CSS3, and Font Awesome icon technology. It has a user-friendly responsive interface and enables functions such as appointment management, maintenance of patient records, management of doctor information, and provides management tools. The pages of the system include a homepage, an appointment page, a patient page, a doctor page, and an administrator page.
 
-HealthHub is a comprehensive React-based hospital management system designed to streamline healthcare operations and improve patient care. This system provides an intuitive interface for managing appointments, patient records, doctor information, and administrative tasks.
+For the deployment, the backend is deployed at https://hospital-management-server-zeta.vercel.app/.
 
-## Features
+For users who want to install and use this system, the specific steps are as follows:
+Clone the repository: Use the command git clone https://github.com/yazdanhaider/Hospital-Management.git to clone the project repository to the local machine and obtain the source code of the system.
+Navigate to the project directory: Enter cd Hospital-Management in the command line to enter the directory where the project is located, getting ready for subsequent operations.
+Install dependencies: Execute the npm i command to automatically install all kinds of dependency packages required for the project to run, ensuring the integrity of the system functions.
+Run the development server: Start the development server by using the npm run dev command, allowing the system to run properly in the local environment, which is convenient for debugging and testing.
 
-- **User-friendly Interface**: Clean and responsive design for easy navigation across devices.
-- **Appointment Management**: Schedule and manage patient appointments efficiently.
-- **Patient Records**: Maintain detailed patient information and medical history.
-- **Doctor Directory**: Access a list of doctors with their specialties and patient counts.
-- **Administrative Tools**: Secure admin panel for overseeing system operations and generating reports.
-- **Responsive Design**: Optimized for both desktop and mobile devices.
+During the actual use, users can easily browse different parts of the system through the top navigation bar and quickly locate the required functional modules. They can use the appointment form to arrange new appointments, and the operation process is simple and clear. In the patient management section, operations such as adding, editing, and deleting patient records can be carried out to achieve dynamic management of patient information. In the doctor information section, relevant information of doctors can be viewed and managed to reasonably arrange the work of medical staff. Administrators can log in to the Admin panel using "admin" as both the username and password to access management functions and perform advanced management operations on the system.
 
-## Pages
-
-1. **Home**: Welcome page with quick access to key features.
-2. **Appointments**: Book and manage patient appointments.
-3. **Patients**: Add, edit, and manage patient records.
-4. **Doctors**: View and manage doctor information.
-5. **Admin**: Secure login for administrative tasks and report generation.
-
-## Technologies Used
-
-- ReactJs
-- JavaScript (ES6+)
-- HTML5
-- CSS3
-- Font Awesome for icons
-- jsPDF for PDF report generation
-  
-## Backend server 
-- Backend is deployed on `https://hospital-management-server-zeta.vercel.app/`
-
-## Setup and Installation
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/yazdanhaider/Hospital-Management.git
-   ```
-2. Navigate to the project directory:
-   ```
-   cd Hospital-Management
-   ```
-3. Install dependencies:
-   ```
-   npm i
-   ```
-4. Run the development server:
-   ```
-   npm run dev
-   ```
-
-## Usage
-
-- Navigate through different sections using the top navigation bar.
-- Use the appointment form to schedule new appointments.
-- Manage patient records in the Patients section.
-- View doctor information in the Doctors section.
-- Access administrative features through the Admin panel (use "admin" for both username and password for demo purposes).
-
-## Contributing
-
-Contributions to improve HealthHub are welcome. Please follow these steps to contribute:
-
-1. Fork the repository
-2. Make your changes
-3. Test the web application manually:
-   - Run the application locally
-   - Verify that all previous functionality is working correctly
-   - Test your new changes thoroughly
-4. If no bugs are found, stage your changes:
-   ```
-   git add .
-   ```
-5. Commit your changes with a descriptive message:
-   ```
-   git commit -m "Add some AmazingFeature"
-   ```
-6. Push to your forked repository:
-   ```
-   git push origin feature/AmazingFeature
-   ```
-7. Open a Pull Request on the original repository
-
-Please ensure that your code adheres to the project's coding standards and includes appropriate documentation.
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Contact
-
-Project Link: https://github.com/yazdanhaider/Hospital-Management/
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yazdanhaider/Hospital-Management&type=Date)](https://star-history.com/#yazdanhaider/Food-Delivery&Date)
-
-# Thanks to all contributors
-<a href="https://github.com/yazdanhaider/Hospital-Management/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=yazdanhaider/Hospital-Management" />
-</a>
-
-## Acknowledgements
-
-- [React](https://reactjs.org/)
-- [Font Awesome](https://fontawesome.com)
-- [jsPDF](https://github.com/MrRio/jsPDF)
+<!-- by 莫杰 -->

@@ -2,6 +2,9 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=FFB13C&size=50&width=1000&height=80&lines=Welcome-to-Hospital-Management-App"/>
 </div>
 
+# HealthHub - Advanced Hospital Management System
+
+
 HealthHub is a comprehensive React-based hospital management system designed to streamline healthcare operations and improve patient care. A comprehensive hospital management system is built using JavaScript (ES6+), HTML5, CSS3, and Font Awesome icon technology. It has a user-friendly responsive interface and enables functions such as appointment management, maintenance of patient records, management of doctor information, and provides management tools. The pages of the system include a homepage, an appointment page, a patient page, a doctor page, and an administrator page.
 For the deployment, the backend is deployed at https://hospital-management-server-zeta.vercel.app/.
 For users who want to install and use this system, the specific steps are as follows: Clone the repository: Use the command git clone https://github.com/yazdanhaider/Hospital-Management.git to clone the project repository to the local machine and obtain the source code of the system. Navigate to the project directory: Enter cd Hospital-Management in the command line to enter the directory where the project is located, getting ready for subsequent operations. Install dependencies: Execute the npm i command to automatically install all kinds of dependency packages required for the project to run, ensuring the integrity of the system functions. Run the development server: Start the development server by using the npm run dev command, allowing the system to run properly in the local environment, which is convenient for debugging and testing.

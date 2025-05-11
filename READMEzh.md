@@ -25,11 +25,8 @@ HealthHub 是一个基于 React 的综合医院管理系统，旨在简化医疗
  
   
 
-**页面**
-主页：可快速访问主要功能的欢迎页面。 
+## 页面
 ## 1.在HomePage.jsx和Home.jsx 
-
-HomePage.jsx的代码 "只包含欢迎标题"， 
     <Layout>
       <h1 className="text-3xl font-bold text-center my-8">Welcome to Hospital Management System</h1>
       {/* Add more sections or components as needed */}
@@ -98,12 +95,10 @@ Home.jsx：主页核心内容，包含所有功能模块。
 医疗主题配色（蓝、白、橙）  
 移动端优先，适配不同屏幕尺寸  
 
-
 3. 实现效果
 动态视觉效果：  
 文字渐显、按钮缩放、卡片悬停上浮  
 平滑的图片轮播和评价滑动  
-
 用户友好交互：  
 点击按钮跳转至对应功能页（如注册、关于）  
 轮播自动播放，支持手动切换  
@@ -122,15 +117,13 @@ Home.jsx：主页核心内容，包含所有功能模块。
 预约相关内容：
 在服务列表中包含 "Appointment Scheduling"（预约排班） 项
 仅作为文字说明，无实际功能
-作用：  
-  向用户说明系统支持预约功能，但需跳转到其他页面（如Appointments.jsx）才能操作。
+作用：向用户说明系统支持预约功能，但需跳转到其他页面（如Appointments.jsx）才能操作。
 
 
 2. Appointments.jsx
 定位：完整的预约管理功能页
-
 核心功能：
-  新建预约  
+ 新建预约
 表单包含患者姓名、选择医生、日期时间、备注  
 使用 DatePicker 组件选择时间  
 输入验证（姓名格式、未来时间校验）
@@ -242,6 +235,7 @@ UI 示例：
 即时反馈：输入错误时弹出提示。  
 
 - - <by---陈丽芹---->
+
 
 ## 技术栈
 

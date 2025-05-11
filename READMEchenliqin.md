@@ -150,7 +150,7 @@ A purely static page with no click events or form submissions. It is suitable as
     - Responsive layout: Stacked display on mobile devices and arranged in two or three columns on desktop devices.
 3. **Function**:
     - Quickly convey the system capabilities and guide users to enter specific functional modules (such as appointment management). 
-
+    
 ### 2. Functions, Project Introduction and Effects of Appointments.jsx
 
 Functions
@@ -179,4 +179,5 @@ A reservation submission form with input validation.
 Interaction experience:
  Animation: The form fades in, and the card hovers and floats up.
  Immediate feedback: Pop up a prompt when there is an input error.
-<!-- by 陈丽芹 -->
+
+ <!--by chenliqin-->

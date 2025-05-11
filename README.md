@@ -10,7 +10,7 @@ For the deployment, the backend is deployed at https://hospital-management-serve
 For users who want to install and use this system, the specific steps are as follows: Clone the repository: Use the command git clone https://github.com/yazdanhaider/Hospital-Management.git to clone the project repository to the local machine and obtain the source code of the system. Navigate to the project directory: Enter cd Hospital-Management in the command line to enter the directory where the project is located, getting ready for subsequent operations. Install dependencies: Execute the npm i command to automatically install all kinds of dependency packages required for the project to run, ensuring the integrity of the system functions. Run the development server: Start the development server by using the npm run dev command, allowing the system to run properly in the local environment, which is convenient for debugging and testing.
 During the actual use, users can easily browse different parts of the system through the top navigation bar and quickly locate the required functional modules. They can use the appointment form to arrange new appointments, and the operation process is simple and clear. In the patient management section, operations such as adding, editing, and deleting patient records can be carried out to achieve dynamic management of patient information. In the doctor information section, relevant information of doctors can be viewed and managed to reasonably arrange the work of medical staff. Administrators can log in to the Admin panel using "admin" as both the username and password to access management functions and perform advanced management operations on the system.
 
--<!-- by 莫杰 -->
+- - <by---莫杰---->
 
 
 The code for the React component mainly aims to initialize and manage the state of doctor information in a hospital management system. The  useState  hook is used to create the  doctors  state, which stores detailed information about multiple doctors, including identity identifiers, personal information, professional fields, business data, professional qualifications, profile pictures, and introductions, etc. Subsequently, this information can be utilized to display the doctor list, doctor details, etc., on the interface, providing data support for doctor-related functions (such as patient appointments, doctor introduction displays, etc.) in the hospital management system.
@@ -208,7 +208,7 @@ Interaction experience:
  Animation: The form fades in, and the card hovers and floats up.
  Immediate feedback: Pop up a prompt when there is an input error.
 
- - <!-- by 陈丽芹 -->
+- - <by---陈丽芹---->
 
 
 ## Technologies Used
@@ -238,7 +238,7 @@ Interaction experience:
   - **MongoDB & Mongoose**: Build database models and ensure data persistence  
   - **NextAuth**: Implement user authentication and authorization  
   - **React Datepicker**: Provide intuitive date selection components
-  -  <!-- 农氏线 -->
+  - - <by---农氏线---->
 
  
   -  ## Setup and Installation
@@ -274,7 +274,7 @@ Interaction experience:
    ```
    npm run dev
    ``` 
-   - <!-- by 罗钰慧 -->
+- - <by---罗钰慧---->
   
   
   **Usage**
@@ -300,7 +300,7 @@ Next, fill in the patient's name, select the doctor for the appointment, the app
 After filling it out, carefully check all the contents to ensure the accuracy of the information.
 Finally, click the "Submit" button. The system will respond immediately and generate an appointment confirmation prompt. You can view the appointment details in "My Appointments", and if there are any problems, you can contact the online customer service for assistance at any time.
 3. Finally, click the "Submit" button. The system will respond immediately and generate an appointment confirmation prompt. You can view the appointment details in "My Appointments", and if there are any problems, you can contact the online customer service for assistance at any time. 
-- <!--by 莫莉华-->
+- - <by---莫莉华---->
 
 
  

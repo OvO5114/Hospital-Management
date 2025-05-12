@@ -269,39 +269,123 @@ UI 示例：
 
  
   ## 安装与设置指南
-1. 安装 Node.js:
-   ```
-   访问 https://nodejs.org/zh-cn/download 下载并安装 Node.js。
-   ```
-2. 克隆仓库:
-   ```
-   git clone https://github.com/yazdanhaider/Hospital-Management.git
-   ```
-3. 进入后端项目目录:
-   ```
-   cd Hospital-Management Backend
-   ```
-4. 安装后端依赖:
-   ```
-   npm install
-   ```
-5. 启动后端服务器:
-   ```
+- 1. 环境准备
+ 首先需要在你的机器上安装以下软件：
+ Git (版本控制工具)
+Node.js (v16+ 建议使用 LTS 版本)
+npm (Node.js 包管理器，通常随 Node.js 一起安装)
+
+- **验证环境安装**
+  bash
+
+- **检查 Git 版本**
+
+  git --version
+
+- **检查 Node.js 版本**
+
+  node --version
+
+- **检查 npm 版本**
+
+  npm --version
+
+- 2. 获取项目源代码
+ 打开终端或命令提示符，执行以下命令克隆项目仓库：
+   bash
+
+  git clone https://github.com/yazdanhaider/Hospital-Management.git
+
+  cd Hospital-Management
+
+
+- 3. 安装项目依赖
+  在项目根目录下执行以下命令安装前端和后端依赖：
+  bash
+
+- **安装前端依赖**
+
+  npm install
+
+  如果你需要单独安装后端依赖（如果项目结构包含后端目录）
+  cd backend
+  npm install
+
+- 4. 配置环境变量
+  在项目根目录下创建 .env 文件，并配置以下环境变量：
+  env
+
+- ## 开发环境配置
+
+  REACT_APP_API_URL=https://hospital-management-server-zeta.vercel.app/api
+
+
+
+- ## 其他可能需要的配置项
+
+  REACT_APP_PORT=3000
+
+
+- 5. 数据库配置（如果需要本地数据库）
+  如果项目使用本地数据库，需要：
+  安装 MongoDB 数据库服务
+  启动 MongoDB 服务
+  在 .env 文件中配置数据库连接信息：
+  env
+  DB_CONNECTION_STRING=mongodb://localhost:27017/hospital-management
+
+- 6. 运行开发环境
+   在项目根目录下执行以下命令启动开发服务器：
+   bash
+
+- **启动前端开发服务器**
+
    npm run dev
-   ``` 
-6. 进入前端项目目录（在新终端中执行）:
-   ```
-   cd Hospital-Management Frontend
-   ```
-7. 安装前端依赖:
-   ```
-   npm install
-   ```
-8. 启动前端开发服务器:
-   ```
-   npm run dev
-   ``` 
+
+
+- **如果需要同时启动后端服务器（在另一个终端窗口）**
+
+  cd backend
+
+  npm start
+
+  开发服务器启动后，访问 http://localhost:3000 即可看到应用界面。
+
+- 7. 生产环境构建与部署
+  构建生产版本
+  bash
+
+**构建生产优化版本**
+
+  npm run build
+
+
+
+  构建完成后，会在项目根目录生成 build 文件夹，包含优化后的静态文件。
+
+ **部署选项**
+  选项 1: 使用 Vercel/Netlify 自动部署
+  将项目推送到 GitHub 仓库
+  在 Vercel/Netlify 平台绑定 GitHub 仓库
+  配置构建命令为 npm run build
+  设置发布目录为 build
+  平台会自动检测代码变更并触发部署
+
+
+- 8. 验证部署
+  部署完成后，访问配置的域名或 IP 地址，确保应用正常运行。使用管理员账户（用户名：admin，密码：admin）登录系统，验证所有功能模块是否正常工作。
+
+- 9. 故障排除
+  如果遇到问题，可以检查以下方面：
+  确认所有依赖正确安装，没有错误信息
+  检查环境变量配置是否正确
+  查看终端日志输出，定位具体错误
+  确认后端 API 服务是否正常运行
+  检查浏览器开发者工具中的网络请求和控制台错误
+ 
+
  - - <by---罗钰慧---->
+
   
   
   **使用方法**

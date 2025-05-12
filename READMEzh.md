@@ -355,7 +355,7 @@ npm (Node.js 包管理器，通常随 Node.js 一起安装)
   构建生产版本
   bash
 
-**构建生产优化版本**
+- **构建生产优化版本**
 
   npm run build
 
@@ -363,7 +363,7 @@ npm (Node.js 包管理器，通常随 Node.js 一起安装)
 
   构建完成后，会在项目根目录生成 build 文件夹，包含优化后的静态文件。
 
- **部署选项**
+ - **部署选项**
   选项 1: 使用 Vercel/Netlify 自动部署
   将项目推送到 GitHub 仓库
   在 Vercel/Netlify 平台绑定 GitHub 仓库

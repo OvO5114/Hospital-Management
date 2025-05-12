@@ -241,39 +241,105 @@ Interaction experience:
   - - <by---农氏线---->
 
  
-  -  ## Setup and Installation
-1. Install Node.js:
-   ```
-   Visit https://nodejs.org/en/download to download and install Node.js.
-   ```
-2. Clone the repository:
-   ```
-   git clone https://github.com/yazdanhaider/Hospital-Management.git
-   ```
-3. Navigate to the Backend Project Directory:
-   ```
-   cd Hospital-Management Backend
-   ```
-4. Install dependencies:
-   ```
-   npm install
-   ```
-5. Run the Backend Server:
-   ```
-   npm run dev
-   ``` 
-6. Navigate to the Backend Project Directory:
-   ```
-   cd Hospital-Management/Frontend
-   ```
-7. Install dependencies:
-   ```
-   npm install
-   ```
-8. Run the Backend Server:
-   ```
-   npm run dev
-   ``` 
+
+- ## Installation and Setup Guide
+- 1. Environment Preparation
+First, you need to install the following software on your machine:
+Git (version control tool)
+Node.js (v16+ is recommended to use the LTS version)
+npm (Node.js package manager, usually installed together with Node.js)
+
+- **Verify Environment Installation**
+bash
+
+- **Check Git Version**
+git --version
+
+- **Check Node.js Version**
+node --version
+
+- **Check npm Version**
+npm --version
+
+- 2. Obtain Project Source Code
+Open the terminal or command prompt and execute the following command to clone the project repository:
+bash
+
+git clone https://github.com/yazdanhaider/Hospital-Management.git
+
+cd Hospital-Management
+
+- 3. Install Project Dependencies
+Execute the following commands in the project root directory to install front-end and back-end dependencies:
+bash
+
+- **Install Front-end Dependencies**
+npm install
+
+If you need to install back-end dependencies separately (if the project structure contains a back-end directory)
+cd backend
+npm install
+
+- 4. Configure Environment Variables
+Create a.env file in the project root directory and configure the following environment variables:
+env
+
+- **Development Environment Configuration**
+REACT_APP_API_URL=https://hospital-management-server-zeta.vercel.app/api
+
+- **Other Possible Configuration Items**
+REACT_APP_PORT=3000
+
+- 5. Database Configuration (if a local database is required)
+If the project uses a local database, you need to:
+Install the MongoDB database service
+Start the MongoDB service
+Configure the database connection information in the.env file:
+env
+DB_CONNECTION_STRING=mongodb://localhost:27017/hospital-management
+
+- 6. Run the Development Environment
+Execute the following command in the project root directory to start the development server:
+bash
+
+- **Start the Front-end Development Server**
+npm run dev
+
+- **If you need to start the back-end server simultaneously (in another terminal window)**
+cd backend
+npm start
+
+After the development server is started, visit http://localhost:3000 to see the application interface.
+
+- 7. Production Environment Build and Deployment
+Build the production version
+bash
+
+- **Build the Optimized Production Version**
+npm run build
+
+After the build is complete, a build folder will be generated in the project root directory, containing optimized static files.
+
+- **Deployment Options**
+Option 1: Use Vercel/Netlify for automatic deployment
+Push the project to the GitHub repository
+Bind the GitHub repository on the Vercel/Netlify platform
+Configure the build command as npm run build
+Set the release directory as build
+The platform will automatically detect code changes and trigger the deployment
+
+- 8. Verify Deployment
+After the deployment is complete, visit the configured domain name or IP address to ensure that the application runs properly. Log in to the system using the administrator account (username: admin, password: admin) and verify that all functional modules work properly.
+
+- 9. Troubleshooting
+If you encounter problems, you can check the following aspects:
+Confirm that all dependencies are installed correctly and there are no error messages
+Check whether the environment variable configuration is correct
+View the terminal log output to locate specific errors
+Confirm that the back-end API service is running properly
+Check the network requests and console errors in the browser developer tools 
+
+
 - - <by---罗钰慧---->
   
   

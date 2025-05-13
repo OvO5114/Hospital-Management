@@ -250,7 +250,6 @@ Node.js (v16+ is recommended to use the LTS version)
 npm (Node.js package manager, usually installed together with Node.js)
 
 - **Verify Environment Installation**
-bash
 
 - **Check Git Version**
 git --version
@@ -263,7 +262,6 @@ npm --version
 
 - 2. Obtain Project Source Code
 Open the terminal or command prompt and execute the following command to clone the project repository:
-bash
 
 git clone https://github.com/yazdanhaider/Hospital-Management.git
 
@@ -271,7 +269,6 @@ cd Hospital-Management
 
 - 3. Install Project Dependencies
 Execute the following commands in the project root directory to install front-end and back-end dependencies:
-bash
 
 - **Install Front-end Dependencies**
 npm install
@@ -313,7 +310,6 @@ After the development server is started, visit http://localhost:3000 to see the 
 
 - 7. Production Environment Build and Deployment
 Build the production version
-bash
 
 - **Build the Optimized Production Version**
 npm run build

@@ -276,7 +276,6 @@ Node.js (v16+ 建议使用 LTS 版本)
 npm (Node.js 包管理器，通常随 Node.js 一起安装)
 
 - **验证环境安装**
-  bash
 
 - **检查 Git 版本**
 
@@ -292,7 +291,7 @@ npm (Node.js 包管理器，通常随 Node.js 一起安装)
 
 - 2. 获取项目源代码
  打开终端或命令提示符，执行以下命令克隆项目仓库：
-   bash
+
 
   git clone https://github.com/yazdanhaider/Hospital-Management.git
 
@@ -301,7 +300,6 @@ npm (Node.js 包管理器，通常随 Node.js 一起安装)
 
 - 3. 安装项目依赖
   在项目根目录下执行以下命令安装前端和后端依赖：
-  bash
 
 - **安装前端依赖**
 
@@ -336,7 +334,7 @@ npm (Node.js 包管理器，通常随 Node.js 一起安装)
 
 - 6. 运行开发环境
    在项目根目录下执行以下命令启动开发服务器：
-   bash
+
 
 - **启动前端开发服务器**
 
@@ -353,7 +351,6 @@ npm (Node.js 包管理器，通常随 Node.js 一起安装)
 
 - 7. 生产环境构建与部署
   构建生产版本
-  bash
 
 - **构建生产优化版本**
 
